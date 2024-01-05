@@ -1,1 +1,107 @@
 /* your code here */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f6f6f6;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Product photo section */
+.product__photo {
+  margin-bottom: 20px;
+}
+
+.photo-container {
+  display: flex;
+}
+
+.photo-main img {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.photo-album ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.photo-album li {
+  margin-right: 10px;
+}
+
+.photo-album li img {
+  width: 60px;
+  height: auto;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Other details */
+.price,
+.variant,
+.description,
+.add-to-cart {
+  margin-bottom: 20px;
+}
+
+.price p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.variant ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.variant ul li {
+  margin-bottom: 10px;
+}
+
+.variant ul li span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.add-to-cart button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart button:hover {
+  background-color: #0e5a9c;
+}
